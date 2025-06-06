@@ -58,3 +58,21 @@ body {
 .info-card_bg_green {
 	background: #3A8067;
 }
+
+.snap-container {
+	height: 100vh;
+	width: 100vw;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+	-webkit-overflow-scrolling: touch;
+}
+
+.snap-section {
+	height: 100vh;
+	width: 100vw;
+	scroll-snap-align: start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
