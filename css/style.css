@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'TT Firs Neue';
+	src: url('../assets/fonts/TT Firs Neue Trial Medium.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'TT Firs Neue', Arial, sans-serif;
+}
+
+.info-card {
+	height: 100vh;
+	min-height: 100vh;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+	padding: 40px 20px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.info-card__icon {
+	margin-bottom: 24px;
+	font-size: 64px;
+
+}
+
+.info-card__text {
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.info-card_bg_blue {
+	background: #5b99ad;
+}
+
+.info-card_bg_red {
+	background: #8E1F1F;
+}
+
+.info-card_bg_purple {
+	background: #511F8E;
+}
+
+.info-card_bg_yellow {
+	background: #C28412;
+}
+
+.info-card_bg_green {
+	background: #3A8067;
+}
